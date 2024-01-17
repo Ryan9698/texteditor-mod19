@@ -27,6 +27,8 @@ module.exports = () => {
         background_color: "#ffffff",
         inject: true,
         fingerprints: false,
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
