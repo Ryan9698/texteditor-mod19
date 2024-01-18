@@ -1,7 +1,5 @@
 # Text Editor PWA - Module 19 Challenge
 
-![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 
 1. [Description](#description)
