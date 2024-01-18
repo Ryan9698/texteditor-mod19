@@ -5,7 +5,7 @@ const { InjectManifest } = require("workbox-webpack-plugin");
 
 module.exports = () => {
   return {
-    mode: "development",
+    mode: "production",
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
@@ -27,8 +27,8 @@ module.exports = () => {
         background_color: "#ffffff",
         inject: true,
         fingerprints: false,
-        start_url: '/',
-        publicPath: '/',
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
@@ -54,7 +54,7 @@ module.exports = () => {
             loader: "babel-loader",
             options: {
               presets: ["@babel/preset-env", "@babel/preset-react"],
-              plugins: ["@babel/plugin-proposal-object-rest-spread"]
+              plugins: ["@babel/plugin-proposal-object-rest-spread"],
             },
           },
         },

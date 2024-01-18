@@ -11,7 +11,7 @@ const initdb = async () =>
       console.log('jate database created');
     },
   });
-
+//Writes and stored to IndexedDB
 export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readwrite');
@@ -20,7 +20,7 @@ export const putDb = async (content) => {
   const result = await request;
   console.log('Data saved to the database', result);
 };
-
+//Calls saved data from IndexedDB
 export const getDb = async () => {
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly');
@@ -30,12 +30,5 @@ export const getDb = async () => {
   console.log('Data retrieved from the database', result);
   return result?.value;
 };
-
-//function to increase the save process on IndexedDB
-
-setInterval(() => {
-  const currentContent = // get current content from the editor;
-  putDb(currentContent);
-}, 5000); // Saves every 5 seconds
 
 initdb();
