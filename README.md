@@ -25,7 +25,7 @@ To use this project and test it, you only need to type in the box and click outs
 
 ## Contributors
 
-Source code was cloned from https://github.com/coding-boot-camp/cautious-meme 
+Source code was cloned from https://github.com/coding-boot-camp/cautious-meme </br>
 BCS Learning Assistant was utilized at different points throughout the development of this application.
 
 ## License
