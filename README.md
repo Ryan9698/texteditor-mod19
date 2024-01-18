@@ -42,8 +42,8 @@ or reach me by email: [rcaltabiano90@gmail.com](mailto:rcaltabiano90@gmail.com).
 
 ## Link
 
-![Render](https://text-editor-pwa-module-19-challenge.onrender.com/)
+[Render](https://text-editor-pwa-module-19-challenge.onrender.com/)
 
 ## Screenshot
 
-![Text_editor](./assets/ss.png)
+![Text_editor](./assets/jate.png)
